@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+    font-family: 'Niramit', sans-serif;
+}
+.about-ctn{
+    background-image: url(../img/Team-large.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+.about {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 30px;
+    border: 2px solid black;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(151, 163, 156,0.9);
+    color:  white;
+    line-height: 1;
+
+    
+    
+}
+.about-desc {
+    width: 30vw;
+}
+
+.about-schedule {
+    width: 30vw;
+}
+.about-desc-header {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.about-schedule {
+    font-size: 40px;
+    /* padding-bottom: 30px; */
+}
+.about-schedule-text {
+    padding-bottom: 30px;
+    margin-top:  32px;
+    font-size: 22px;
+}
+.about-schedule-time {
+    font-weight: bold;
+    font-size: 60px;
+    margin-right: 55px;
+}
+
